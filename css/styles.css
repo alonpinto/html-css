@@ -1,0 +1,34 @@
+
+
+html{
+    min-height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+}
+
+
+.gallery {
+    width: 1024px;
+    color:red;
+    margin: auto;
+    height: 100%;
+    background-color: rgb(225, 230, 230);
+    display: flex;
+    flex-flow:  row wrap;
+    justify-content: space-evenly;
+    padding-top: 2.5%;
+
+}
+
+.gallery-item{
+    width: 45%;
+    height: 400px;
+    background-color: rgb(235, 209, 198);
+    border: 1px solid navy;
+    margin-bottom: 2.5%;
+  
+
+}
