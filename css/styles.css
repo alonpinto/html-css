@@ -16,19 +16,43 @@ body{
     margin: auto;
     height: 100%;
     background-color: rgb(225, 230, 230);
-    display: flex;
-    flex-flow:  row wrap;
-    justify-content: space-evenly;
-    padding-top: 2.5%;
-
+    font-size: 0;
+   
 }
 
 .gallery-item{
+    font-size: 14px;
+    display: inline-block;
     width: 45%;
     height: 400px;
     background-color: rgb(235, 209, 198);
-    border: 1px solid navy;
-    margin-bottom: 2.5%;
-  
+    box-sizing: border-box;
+    margin: 2.5%;
+    border:1px solid red;
+    vertical-align: top;
+}
 
+
+
+.bg{
+    background: center/cover no-repeat ;
+    background-position-y: 50px ;
+}
+
+
+.bg-1 {
+    background-image: url('../assets/1.jpeg');
+}
+
+.bg-2 {
+    background-image: url('../assets/2.jpeg');
+}
+
+
+.bg-3 {
+    background-image: url('../assets/2.jpeg');
+}
+
+.bg-4 {
+    background-image: url('../assets/4.jpeg');
 }
